@@ -38,7 +38,6 @@
             // 
             // BackToRegisterBtn
             // 
-            BackToRegisterBtn.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             BackToRegisterBtn.Location = new Point(208, 241);
             BackToRegisterBtn.Name = "BackToRegisterBtn";
             BackToRegisterBtn.Size = new Size(166, 29);
@@ -57,10 +56,9 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label1.Location = new Point(208, 105);
             label1.Name = "label1";
-            label1.Size = new Size(80, 20);
+            label1.Size = new Size(75, 20);
             label1.TabIndex = 2;
             label1.Text = "Username";
             // 
@@ -74,16 +72,14 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             label2.Location = new Point(208, 159);
             label2.Name = "label2";
-            label2.Size = new Size(76, 20);
+            label2.Size = new Size(70, 20);
             label2.TabIndex = 2;
             label2.Text = "Password";
             // 
             // LoginBtn
             // 
-            LoginBtn.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
             LoginBtn.Location = new Point(484, 241);
             LoginBtn.Name = "LoginBtn";
             LoginBtn.Size = new Size(172, 29);
@@ -96,8 +92,6 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.Aquamarine;
-            BackgroundImageLayout = ImageLayout.None;
             ClientSize = new Size(800, 450);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -105,8 +99,6 @@
             Controls.Add(UserNameTxt);
             Controls.Add(LoginBtn);
             Controls.Add(BackToRegisterBtn);
-            Cursor = Cursors.Hand;
-            FormBorderStyle = FormBorderStyle.Fixed3D;
             Name = "LoginForm";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "LoginForm";
