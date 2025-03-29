@@ -6,7 +6,7 @@ namespace Demo_Login.Classes
 {
     public static class ConfigHelper
     {
-        private const string SecretsFilePath = "C:\\Users\\VAN TAI\\Downloads\\Demo-LoginUser-master\\Demo-LoginUser-master\\secrets.json";
+        private const string SecretsFilePath = "..\\..\\..\\secrets.json";
 
         public static string GetFirebaseApiKey()
         {
